@@ -1,0 +1,67 @@
+.try_bg{
+    background-image: url('../../assets/bg5.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.try_hd {
+    width: 29.313rem;
+    height: 7.875rem;
+    margin: 0 0 1.375rem;
+    font-size: 3.375rem;
+    font-weight: bold;
+    line-height: 1.17;
+    letter-spacing: -1.69px;
+    color: #fff;
+}
+
+.try_p {
+    width: 28.75rem;
+    height: 6.563rem;
+    margin: 1.375rem 0.563rem 2.5rem 0;
+    font-size: 1.181rem;
+    line-height: 1.86;
+    letter-spacing: -0.59px;
+    color: #fff;
+}
+
+.try_btn {
+    width: 11.313rem;
+    height: 3.375rem;
+    margin: 2.5rem 18rem 0 0;
+    padding: 0.938rem 0;
+    border-radius: 4.5px;
+    border: solid 0.9px #f0c931;
+    background-color: #fedc5a;
+}
+
+@media screen and (max-width: 768px){
+    .try_bg{
+        height: 80vh;
+        background-image: none;
+        background-color: #5454d4;
+    }
+    .try_hd{
+        font-size: 2.5rem;
+        margin-left: 30px;
+        margin-bottom: 0;
+    }
+    .try_p{
+        font-size: 1rem;
+        margin-left: 30px;
+        margin-top: 0;
+    }
+    .try_btn{
+        margin-left: 30px;
+        margin-top: -1px;
+    }
+}
